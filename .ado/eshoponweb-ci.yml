@@ -53,3 +53,4 @@ stages:
         PathtoPublish: '$(Build.SourcesDirectory)/.azure/bicep/webapp.bicep'
         ArtifactName: 'Bicep'
         publishLocation: 'Container'
+
