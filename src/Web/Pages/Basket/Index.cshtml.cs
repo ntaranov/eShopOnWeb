@@ -26,6 +26,7 @@ public class IndexModel : PageModel
 
     public async Task OnGet()
     {
+        throw new Exception("The basket is broken!");
         BasketModel = await _basketViewModelService.GetOrCreateBasketForUser(GetOrSetBasketCookieAndUserName());
     }
 
